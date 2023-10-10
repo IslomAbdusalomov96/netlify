@@ -1,0 +1,27 @@
+/* GENERAL CSS: */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+img {
+    vertical-align: middle;
+}
+.container {
+    max-width: 1157px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.box {
+    margin-top: 80px;
+    width: 400px;
+    height: 400px;
+    background-color: chartreuse;
+    border-radius: 0% 100% 100% 0% / 0% 0% 100% 100%;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
